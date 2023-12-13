@@ -57,10 +57,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Your test name\", function () {\r",
-							"    var jsonData = pm.response.json();\r",
-							"    pm.expect(jsonData.value).to.eql(100);\r",
-							"});"
+							""
 						],
 						"type": "text/javascript"
 					}
