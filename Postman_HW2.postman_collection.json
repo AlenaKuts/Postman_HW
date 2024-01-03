@@ -100,7 +100,7 @@
 							"console.log(resp.family);\r",
 							"\r",
 							"//12. Проверить что u_salary_1_5_year в ответе равно salary*4 (salary забрать из request)\r",
-							"var resp_salary_1_5_year = resp.family.u_salary_1_5_year\r",
+							"let resp_salary_1_5_year = resp.family.u_salary_1_5_year\r",
 							"pm.test(\"Check salary_1_5_year value\", function () {\r",
 							"    pm.expect(resp_salary_1_5_year).to.eql(req_salary * 4);\r",
 							"});"
